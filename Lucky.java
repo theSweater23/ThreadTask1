@@ -11,7 +11,7 @@ public class Lucky {
                     if ((x % 10) + (x / 10) % 10 + (x / 100) % 10 == (x / 1000)
                             % 10 + (x / 10000) % 10 + (x / 100000) % 10) {
                         System.out.println(x);
-                        count++;
+                        Count++;
                     }
                 }
             }
@@ -28,6 +28,6 @@ public class Lucky {
         t1.join();
         t2.join();
         t3.join();
-        System.out.println("Total: " + count);
+        System.out.println("Total: " + Count);
     }
 }
